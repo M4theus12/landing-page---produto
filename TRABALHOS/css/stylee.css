@@ -1,0 +1,135 @@
+.esquerda{
+    list-style: none !important; 
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+    margin-left: 500px;
+
+}
+
+.esquerda li {
+    display: inline-block !important;
+    align-items: flex-end !important;
+
+}
+
+#n1{
+    padding: 3px;
+    margin: 0;
+    justify-items:end;
+    align-items: flex-end;
+    width: 20px 20px 30px;
+    font-size: 20px;
+}
+
+#checkbox-menu{
+    position: absolute;
+    opacity: 0;
+    
+
+}
+
+ label{
+    cursor: pointer;
+    position:relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 10px;
+
+
+}
+
+ label span{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: black;
+    transition: 0.25s ease-in-out;
+
+
+}
+
+
+label span:nth-child(1){
+    top:0;
+}
+label span:nth-child(2){
+    top:8px;
+}
+label span:nth-child(3){
+    top:16px;
+}
+
+#dd1{
+ border-radius: 6px;
+
+}
+
+@media(min-width: 1024px) {
+    .div-img-carousel, .item.active {
+        overflow: hidden;
+        width: 700px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        width: 40%;
+    }
+
+    #meuSlider {
+        width: 700px;
+        height: 400px;
+    }
+
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 700px;
+    height: 400px; 
+  }
+
+  .corpo-1{
+    margin: 20px;
+    height: 30px;
+
+
+
+  }
+
+  .corpo-2{
+    margin: 10px;
+    padding: 10px;
+
+
+
+  }
+
+  .menu{
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  body{
+    background: #484D4D;
+    background-color: #484D4D;
+
+  }
+
+  .cor{
+  color: #20c997;
+
+
+  }
+
+  b{
+      color: #20c997;
+  }
+
+
+  
